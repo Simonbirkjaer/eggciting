@@ -95,6 +95,19 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+#close2 {
+    position: absolute;
+    color: #aaaaaa;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close2:hover{
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;
+}
 .pop-button{
     margin-top: -10%;
 }

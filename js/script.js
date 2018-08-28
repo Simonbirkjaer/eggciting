@@ -3,8 +3,9 @@ var button2 = document.getElementById("close");
 var button3 = document.getElementById("close2");
 var button4 = document.getElementById("close3");
 var modal = document.getElementById("modal");
+
 var sound = document.getElementById("play")
-sound.volume = 0.3;
+
 button.addEventListener("click", function () {
     //menu.className("visible")
     if (modal.className === "visible") {
