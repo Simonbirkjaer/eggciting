@@ -13,7 +13,7 @@
 <body>
     
     
-    <h2>Pick your egg</h2>
+    <h2>Pick your size</h2>
     
     
 <!--Boiling options start -->
@@ -34,15 +34,13 @@
             <p>Favorite</p></a>
         </div>
         
-        <div class="flex" id=""><a href="clock.html" target="_self">
-        <div class="flexinner"><p>Image</p></div>
-            <p>Custom</p></a>
-        </div>
-        
     </section>
     
 <!--Boiling options end -->
 
+    <a href="timer.html" target="_self"><button><p>Return</p></button></a>
+    
+    <a href="timer.html" target="_self"><button><p>Return</p></button></a>
 
 </body>
 </html>
