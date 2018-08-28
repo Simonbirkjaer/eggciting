@@ -30,4 +30,39 @@ button {
 body {
   text-align: center; }
 
-/*# sourceMappingURL=mathias.css.map */
+bottom {
+  width: 100%; }
+
+.time {
+  margin-top: 3%;
+  font-size: 55px; }
+
+.spinning-egg {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: thin solid #22afd6; }
+
+/* SCSS CODE FOR BUTTONS */
+.flex-button {
+  display: flex;
+  flex-direction: row; }
+
+.flex-button a {
+  width: 100%;
+  margin-top: 23%;
+  text-decoration: none; }
+  .flex-button a p {
+    font-size: 20px; }
+
+footer a button {
+  width: 80%;
+  height: 8vh;
+  align-content: center;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  background-color: #dc5884;
+  border: none; }
+
+/* END */
