@@ -14,7 +14,8 @@ body {
 
 button {
   max-width: 80%;
-  min-width: 50%;
+  min-width: 40%;
+  display: inline;
   height: auto;
   align-content: center;
   border-radius: 5px;
@@ -25,3 +26,6 @@ button {
 
 .egg-time {
   font-size: 15px; }
+
+body {
+  text-align: center; }
