@@ -8,3 +8,54 @@ body{
     text-align: center;
 }
 
+bottom {
+    width: 100%;
+}
+.time{
+    margin-top: 3%;
+    font-size: 55px;
+}
+
+.spinning-egg{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: thin solid $primary-color;
+}
+
+/* SCSS CODE FOR BUTTONS */
+.flex-button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-button{
+    a{
+        width: 100%;
+        margin-top: 23%;
+        text-decoration: none;
+        
+        p{
+            font-size: 25px;
+        }
+    }
+}
+
+
+footer {
+    a {
+        button {
+            max-width: 80%;
+            min-width: 80%;
+            height: 8vh;
+            align-content: center;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+            background-color: $second-color;
+            border: none;
+        }
+    }
+}
+/* END */
