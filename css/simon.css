@@ -28,7 +28,7 @@ button {
 button {
   max-width: 80%;
   min-width: 50%;
-  height: auto;
+  height: 50px;
   align-content: center;
   border-radius: 5px;
   display: block;
@@ -55,7 +55,54 @@ button {
 
 .checkbox {
   width: 15px;
-  height: 15px; }
+  height: 15px;
+  margin-top: 5px;
+  border: 1px solid #dc5884;
+  cursor: pointer;
+  position: relative; }
+
+/* Hide the browser's default checkbox */
+.flex-timer section input {
+  position: absolute;
+  opacity: 0; }
+
+.flex-timer section span {
+  align-self: center; }
+
+/* Create a custom checkbox */
+.checkmark {
+  margin-top: 5px;
+  position: absolute;
+  border: none;
+  width: 15px;
+  height: 15px;
+  background-color: #eee; }
+
+/* When the checkbox is checked, add a blue background */
+.flex-timer section input:checked ~ .checkmark {
+  background-color: #2196F3; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.flex-timer section input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.flex-timer section .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 .flex-buttons {
   display: flex;
