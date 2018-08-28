@@ -1,5 +1,6 @@
 @import 'global';
 /* Fonts start */
+
 button {
     max-width: 80%;
     min-width: 50%;
@@ -12,8 +13,37 @@ button {
     border: none;
 }
 
+.flex-timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.flex-timer section {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
 
+.flex-timer p {
+    margin-bottom: 10px;
+}
+
+.flex-timer section img {
+    width: 100%;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.flex-buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
 
 /* 404 start */
 
