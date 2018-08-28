@@ -37,7 +37,7 @@ bottom {
   margin-top: 3%;
   font-size: 55px; }
 
-.spinning-egg {
+#spinning-egg {
   width: 80%;
   margin-top: 5%;
   margin-left: 10%;
@@ -66,3 +66,40 @@ footer a button {
   border: none; }
 
 /* END */
+/* POPUP */
+#modal {
+  display: none;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 25%;
+  z-index: 5;
+  width: 80%;
+  height: 65vh;
+  background-color: lightgrey;
+  border-radius: 15px; }
+
+#modal .pop-tekst {
+  font-size: 25px; }
+
+#modal.visible {
+  display: block; }
+
+/* The Close Button */
+#close {
+  position: absolute;
+  color: #aaaaaa;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold; }
+
+#close:hover {
+  color: pink;
+  text-decoration: none;
+  cursor: pointer; }
+
+.pop-button {
+  margin-top: -10%; }
+
+.done-egg {
+  margin-top: 7%;
+  width: 80%; }
