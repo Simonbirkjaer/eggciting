@@ -3,7 +3,7 @@ var modal3 = document.getElementById("modal3");
 var button = document.getElementById("favourite");
 var button3 = document.getElementById("custom");
 var button2 = document.getElementById("close");
-var button4 = document.getElementById("close2");
+var button4 = document.getElementById("close3");
 
 button.addEventListener("click", function () {
     //menu.className("visible")

@@ -97,14 +97,14 @@ footer a button {
   text-decoration: none;
   cursor: pointer; }
 
-#close2 {
+#close3 {
   position: absolute;
   color: #aaaaaa;
   right: 15px;
   font-size: 28px;
   font-weight: bold; }
 
-#close2:hover {
+#close3:hover {
   color: pink;
   text-decoration: none;
   cursor: pointer; }
@@ -115,3 +115,13 @@ footer a button {
 .done-egg {
   margin-top: 7%;
   width: 80%; }
+
+section footer a button {
+  width: 100px;
+  height: 8vh;
+  align-content: center;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  background-color: #dc5884;
+  border: none; }
