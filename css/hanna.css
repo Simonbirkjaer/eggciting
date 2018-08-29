@@ -40,6 +40,6 @@ img.broken {
 
 a {
   text-decoration: none; }
-  a button p {
+  a button .button-info {
     padding: 1em;
     line-height: 1.3em; }
