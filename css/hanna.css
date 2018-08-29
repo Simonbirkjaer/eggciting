@@ -1,8 +1,27 @@
-.wrongbutton {
-  height: 50%;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center; }
+/*index*/
+.backgroundbody {
+  background-image: url(/images/background.png);
+  background-size: cover; }
+
+.welcome {
+  margin-top: 145px; }
+
+.getboiling {
+  font-family: 'Montserrat';
+  margin-top: 100px; }
+  .getboiling p {
+    width: 150px;
+    font-size: 1.5em; }
+
+.smalleggs {
+  height: 40px;
+  width: 40px;
+  padding-top: 1em; }
+
+.flexineggs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
 
 img.broken {
   padding-top: 1.5em;
@@ -12,3 +31,15 @@ img.broken {
 .wrongh1 {
   padding-top: 1em;
   font-size: 4em; }
+
+.wrongbutton {
+  height: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Montserrat"; }
+
+a {
+  text-decoration: none; }
+  a button .button-info {
+    padding: 1em;
+    line-height: 1.3em; }
