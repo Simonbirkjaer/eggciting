@@ -1,7 +1,9 @@
 .ap h1 {
   margin-top: 10%; }
 .ap img {
-  margin-top: 10%; }
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%; }
 .ap form {
   position: fixed;
   top: 50%;
