@@ -1,3 +1,5 @@
+/*-- the amount page --*/
+
 .ap {
     h1 {
         margin-top: 10%;
@@ -33,52 +35,37 @@
 }
 
 
-.sp {
-    h1 {
-        margin-top: 10%;
-    }
+/*-- the size page --*/
 
-    h2{text-align: center;}
-    article {
+.sp {
+    h1 {margin-top: 5%; }
+    
+    main {
         display: flex;
         justify-content: space-around;
-        margin-top: 10%;
-        margin-left: 5%;
-
-        img { margin-top: 3%;
-            display: block;
-        }
-    }
-    form{ font-size: 25px;
-             }
-
-    footer {
-        margin-bottom: 10%;
-        margin-top: -17%;
-    }
+        margin-top: 10%;}
+    
+    img { margin-top: 3%;}
+    
 }
 
-.sp-small {
-    margin-top: 8%;
-    img {
-        max-width: 80%;
-    }
-
+.sp-small { margin-top: 8%;
+    
+    img {max-width: 75%;}
 }
+
 
 .sp-l {
-    img {
-        max-width: 100%;
-    }
+    
+    img {max-width: 90%;}
 }
 
+
 .sp-xl {
-    margin-left: 25%;
-    margin-top: 5%;
-    img {
-        max-width: 70%;
-        display: block;
-        margin-top: 3%;
-    }
-    form {margin-right: 60%;}
+    
+    img {max-width: 60%;}
+}
+
+.sp-footer {margin-bottom: 3%;
+            margin-top: -18%;
 }

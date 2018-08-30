@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Eggciting</title>
-	<link rel="stylesheet" type="text/css" href="css/simon.css">
-	<link rel="stylesheet" type="text/css" href="css/hagar.css">
-	<link rel="stylesheet" type="text/css" href="css/hanna.css">
-	<link rel="stylesheet" type="text/css" href="css/mathias.css">
+    <meta charset="utf-8">
+    <title>Eggciting</title>
+    <link rel="stylesheet" type="text/css" href="css/simon.css">
+    <link rel="stylesheet" type="text/css" href="css/hagar.css">
+    <link rel="stylesheet" type="text/css" href="css/hanna.css">
+    <link rel="stylesheet" type="text/css" href="css/mathias.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body class="sp">
-    
-<h1 > Choose your Egg </h1>
- <article>   
-    <form  class="sp-small checkbox" action="/action_page.php">
-<h2> S </h2>
-<img src="images/custom-normal.png" alt="small egg">
-        <input  type="checkbox" name="egg1" value="egg">
-</form> 
-    
-    <form class="sp-l" action="/action_page.php">
-        <h2>L</h2>
 
-<img src="images/custom-normal.png" alt="small egg">
-        <input type="checkbox" name="egg2" value="egg">
-</form> 
-    
-  </article>  
-    <form class="sp-xl" action="/action_page.php">
-     <h2>X-L </h2>
+    <h1> Choose your Egg </h1>
+    <main>
+        <section class="sp-small ">
+            <h2> S </h2>
+            <img src="images/custom-normal.png" alt="small egg">
+            <article class="checkbox">
 
-<img src="images/custom-normal.png" alt="small egg">
-        <input type="checkbox" name="egg2" value="egg">
-</form>
-    
-    <footer class="bottom flex-button">
+                <input type="checkbox" name="check" />
+                <label for="checkbox"></label>
+            </article>
+        </section>
+
+        <section class="sp-l" >
+            <h2>L</h2>
+
+            <img src="images/custom-normal.png" alt="small egg">
+            <article class="checkbox">
+
+                <input type="checkbox" name="check" />
+                <label for="checkbox"></label>
+            </article>
+        </section>
+
+    </main>
+    <section class="sp-xl" >
+        <h2>X-L </h2>
+
+        <img src="images/custom-normal.png" alt="small egg">
+        <article class="checkbox">
+
+            <input type="checkbox" name="check" />
+            <label for="checkbox"></label>
+        </article>
+    </section>
+
+    <footer class="bottom flex-button sp-footer">
         <a href="amount.html" target="_self">
             <button> <p>BACK</p> </button>
         </a>
