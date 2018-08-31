@@ -27,20 +27,18 @@
 .sp main {
   display: flex;
   justify-content: space-around;
-  margin-top: 10%; }
-.sp img {
-  margin-top: 3%; }
+  margin-top: 3.5%; }
 
 .sp-small {
-  margin-top: 8%; }
+  margin-top: 7%; }
   .sp-small img {
-    max-width: 75%; }
+    max-width: 70%; }
 
 .sp-l img {
-  max-width: 90%; }
+  max-width: 85%; }
 
 .sp-xl img {
-  max-width: 60%; }
+  max-width: 55%; }
 
 .sp-footer {
   margin-bottom: 3%;
