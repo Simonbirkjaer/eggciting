@@ -3,11 +3,12 @@
 $primary-color: #22afd6;
 $second-color: #dc5884;
 
-*{
+* {
     margin: 0;
     padding: 0;
     color: white;
 }
+
 body {
     font-family: 'Montserrat';
     background-color: $primary-color;
@@ -29,3 +30,44 @@ button {
     background-color: $second-color;
     border: none;
 }
+
+#index.invisible {
+    display: none;
+}
+
+#index{
+    display: block;
+}
+
+#amount{
+    display: none;
+}
+
+#size{
+    display: none;
+}
+
+#timer{
+    display: none;
+}
+
+#clock{
+    display: none;
+}
+
+#amount.visible {
+    display: block;
+}
+
+#size.visible {
+    display: block;
+}
+
+#timer.visible {
+    display: block;
+}
+
+#clock.visible {
+    display: block;
+}
+

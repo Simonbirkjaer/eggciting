@@ -24,6 +24,36 @@ button {
   background-color: #dc5884;
   border: none; }
 
+#index.invisible {
+  display: none; }
+
+#index {
+  display: block; }
+
+#amount {
+  display: none; }
+
+#size {
+  display: none; }
+
+#timer {
+  display: none; }
+
+#clock {
+  display: none; }
+
+#amount.visible {
+  display: block; }
+
+#size.visible {
+  display: block; }
+
+#timer.visible {
+  display: block; }
+
+#clock.visible {
+  display: block; }
+
 .egg-time {
   font-size: 15px; }
 

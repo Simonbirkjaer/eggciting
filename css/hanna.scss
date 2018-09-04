@@ -1,20 +1,52 @@
+@import 'global';
+
 /*index*/
 
-.welcome {
-    margin-top: 145px;
+.index_welcome {
+    margin-top: 200px;
+    z-index: 10;
+    position: absolute;
+    background: $primary-color;
+    width: 100%;
+
+}
+
+.rotate1 {    
+    -webkit-animation: spin 5s infinite linear;
+    width: 40%;
+}
+
+@keyframes spin
+    {
+    from {transform:rotate(-0deg);}
+    to {transform:rotate(-360deg);}
+}
+
+.rotate2 {
+    -webkit-animation: spins 6s infinite linear;
+    width: 40%;
+}
+
+@keyframes spins
+    {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 
 
 .getboiling {
     font-family: 'Montserrat';
-   margin-top:100px;
+    margin-top: 100%;
+    margin-left: 25%;
+    z-index: 10;
+    position: absolute;
     p {
         width: 150px;
-        font-size: 1.5em;  
-        
+        font-size: 1.5em;
+
     }
-    
-    
+
+
 }
 
 .smalleggs {
