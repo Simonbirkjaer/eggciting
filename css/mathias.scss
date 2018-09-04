@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-bottom {
+.bottom {
     width: 100%;
 }
 
@@ -47,7 +47,7 @@ bottom {
 
 footer {
     a {
-        button {
+        .buttons {
             width: 80%;
             height: 8vh;
             align-content: center;
@@ -68,7 +68,7 @@ footer {
     display: none;
     position: absolute;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: -135%;
     z-index: 5;
     width: 80%;
     height: 65vh;
@@ -129,7 +129,7 @@ footer {
 section {
     footer {
         a {
-            button {
+            .buttons {
                 width: 100px;
                 height: 8vh;
                 align-content: center;
