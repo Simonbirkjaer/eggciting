@@ -12,15 +12,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="backgroundbody">
+<body>
    
-    
+<section class="backgroundbody">
+
+
     <h1 class="welcome"> Welcome to Eggciting </h1>
 
 
-    <a href="amount.html">
+    <a href="timer.html">
         <button class="getboiling"><p class="button-info">Get boiling</p></button>
               </a>
+    <div class="animation">
+        <div class="random" id="r1"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r2"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r3"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r4"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r5"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r6"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r7"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r8"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r9"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r10"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r11"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r12"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+        <div class="random" id="r13"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate1"></div>
+        <div class="random" id="r13"><img src="images/small%20egg.png" alt="rotating" style="width: 150%;" class="rotate2"></div>
+    </div>
+    
+    </section>
+    
 
 </body>
+    
+    <script>
+        (function() {
+            'use strict';
+
+            var w = document.body.offsetWidth,
+                h = document.body.offsetHeight,
+                rd = document.getElementsByTagName('div'),
+                mw = 200,
+                mh = 500,
+                c;
+
+            if ((w > mw) && (h > mh)) {
+                for (c = 0; c < rd.length; c++) {
+                    if (rd[c].className == 'random') {
+                        rd[c].style.position = 'absolute';
+                        var xCoord = Math.floor(Math.random() * w);
+                        var yCoord = Math.floor(Math.random() * h);
+                        if (xCoord >= w - rd[c].offsetWidth - 10) {
+                            xCoord = w - rd[c].offsetWidth - 10;
+                        }
+                        if (xCoord <= 10) {
+                            xCoord = 10;
+                        }
+                        if (yCoord >= h - rd[c].offsetHeight - 10) {
+                            yCoord = h - rd[c].offsetHeight - 10;
+                        }
+                        if (yCoord <= 10) {
+                            yCoord = 10;
+                        }
+                        rd[c].style.left = xCoord + 'px';
+                        rd[c].style.top = yCoord + 'px';
+                    }
+                }
+            }
+        })();
+    </script>
 </html>
