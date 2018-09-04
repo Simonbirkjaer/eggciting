@@ -1,18 +1,65 @@
-/*index*/
-.backgroundbody {
-  background-image: url(/images/background.png);
-  background-size: cover; }
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+  color: white; }
 
+body {
+  font-family: 'Montserrat';
+  background-color: #22afd6;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 2fr;
+  grid-template-areas: 'header' 'main' 'bottom'; }
+
+button {
+  max-width: 80%;
+  min-width: 40%;
+  display: inline;
+  height: auto;
+  align-content: center;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  background-color: #dc5884;
+  border: none; }
+
+/*index*/
 .welcome {
-  margin-top: 145px; }
+  margin-top: 60%;
+  position: absolute;
+  z-index: 10;
+  background-color: #22afd6;
+  width: 100%; }
 
 .getboiling {
   font-family: 'Montserrat';
-  margin-top: 100px; }
+  margin-top: 100%;
+  z-index: 10;
+  position: absolute;
+  margin-left: 25%; }
   .getboiling p {
     width: 150px;
     font-size: 1.5em; }
 
+.rotate1 {
+  -webkit-animation: spin 5s infinite linear;
+  width: 40%; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
+.rotate2 {
+  -webkit-animation: spins 6s infinite linear;
+  width: 40%; }
+
+@keyframes spins {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 .smalleggs {
   height: 40px;
   width: 40px;
