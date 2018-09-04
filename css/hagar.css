@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*-- the amount page --*/
 .ap h1 {
   margin-top: 10%; }
@@ -43,3 +44,52 @@
 .sp-footer {
   margin-bottom: 3%;
   margin-top: -18%; }
+=======
+/*-- the amount page --*/
+.ap h1 {
+  margin-top: 10%; }
+.ap img {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%; }
+.ap form {
+  position: fixed;
+  top: 50%;
+  left: 45%; }
+  .ap form input {
+    width: 100%;
+    height: 200%; }
+.ap a {
+  width: 100%;
+  margin-top: 23%;
+  text-decoration: none; }
+.ap button {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 30px; }
+
+/*-- the size page --*/
+.sp h1 {
+  margin-top: 5%; }
+.sp main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.5%; }
+
+.sp-small {
+  margin-top: 7%; }
+  .sp-small img {
+    max-width: 70%; }
+
+.sp-l img {
+  max-width: 85%; }
+
+.sp-xl img {
+  max-width: 55%; }
+
+.sp-footer {
+  margin-bottom: 3%;
+  margin-top: -18%; }
+
+/*# sourceMappingURL=hagar.css.map */
+>>>>>>> Stashed changes
