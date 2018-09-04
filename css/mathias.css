@@ -30,7 +30,7 @@ button {
 body {
   text-align: center; }
 
-bottom {
+.bottom {
   width: 100%; }
 
 .time {
@@ -55,7 +55,7 @@ bottom {
   .flex-button a p {
     font-size: 20px; }
 
-footer a button {
+footer a .buttons {
   width: 80%;
   height: 8vh;
   align-content: center;
@@ -71,7 +71,7 @@ footer a button {
   display: none;
   position: absolute;
   margin-left: 10%;
-  margin-top: 25%;
+  margin-top: -135%;
   z-index: 5;
   width: 80%;
   height: 65vh;
@@ -116,7 +116,7 @@ footer a button {
   margin-top: 7%;
   width: 80%; }
 
-section footer a button {
+section footer a .buttons {
   width: 100px;
   height: 8vh;
   align-content: center;
@@ -125,5 +125,3 @@ section footer a button {
   margin: auto;
   background-color: #dc5884;
   border: none; }
-
-/*# sourceMappingURL=mathias.css.map */
