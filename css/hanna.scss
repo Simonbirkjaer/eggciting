@@ -1,21 +1,13 @@
-@import 'global';
-
 /*index*/
+
 .welcome {
-    margin-top: 60%;
-    position: absolute;
-    z-index: 10;
-    background-color: $primary-color;
-    width: 100%;
-    
+    margin-top: 145px;
 }
+
 
 .getboiling {
     font-family: 'Montserrat';
-   margin-top:100%;
-    z-index: 10;
-    position: absolute;
-    margin-left: 25%;
+   margin-top:100px;
     p {
         width: 150px;
         font-size: 1.5em;  
@@ -23,28 +15,6 @@
     }
     
     
-}
-
-.rotate1 {    
-    -webkit-animation: spin 5s infinite linear;
-    width: 40%;
-}
-
-@keyframes spin
-    {
-    from {transform:rotate(-0deg);}
-    to {transform:rotate(-360deg);}
-}
-
-.rotate2 {
-    -webkit-animation: spins 6s infinite linear;
-    width: 40%;
-}
-
-@keyframes spins
-    {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
 }
 
 .smalleggs {
